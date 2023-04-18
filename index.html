@@ -5,21 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador freelancer</title>
+
+    <link rel="preload" href="/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="/css/style.css" as="style"> 
+    <link rel="stylesheet" href="/css/style.css">
+   
 </head>
 <body>
 <header>
-        <h1>Wilberto Durán freelancer</h1>
+        <h1 class="titulo">Wilberto Durán <span>freelancer</span> </h1>
 </header>
 
-<nav>
-    <a href="#">inicio</a>
-    <a href="#">sobre mi</a>
-    <a href="#">clientes</a>
-    <a href="#">contactos</a>
-</nav>
+<div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+                <a href="#">inicio</a>
+                <a href="#">sobre mi</a>
+                <a href="#">clientes</a>
+                <a href="#">contactos</a>
+        </nav>
+</div>
 
 <section>
-        <h2>Diseño y Desarrollo Web Freelancer</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web Freelancer</h2>
 
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="56" height="56" viewBox="0 0 24 24" stroke-width="1" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
