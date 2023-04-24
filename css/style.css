@@ -10,6 +10,12 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box; /*El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte del cálculo del ancho de la caja y no lo suman posteriormente.*/
+    scroll-snap-type: y proximity;/*para darle scroll a tu pagina si "x" el scroll es horizontal y "y" es vertical*/
+}
+
+.servicios, .navegacion-principal, .formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 *, *:before, *:after{
